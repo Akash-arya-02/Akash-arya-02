@@ -1,18 +1,18 @@
 <div align="center">
 
-<!-- Capsule Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00F7FF,100:0D1117&height=200&section=header&text=Akash%20Gautam&fontSize=60&fontColor=FFFFFF&fontAlignY=38&desc=Frontend%20Engineer%20%7C%20React%20%26%20React%20Native%20Developer&descSize=18&descAlignY=58&descColor=00F7FF&animation=fadeIn" />
+<!-- Capsule Header — simple text, no special chars in URL -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=180&section=header&text=Akash%20Gautam&fontSize=55&fontColor=fff&fontAlignY=38&desc=Frontend%20Engineer%20%7C%20React%20%26%20React%20Native&descSize=18&descAlignY=58&descColor=00F7FF&animation=fadeIn" />
 
 <!-- Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&multiline=false&width=600&lines=Building+production-level+apps+%F0%9F%9A%80;React+%26+React+Native+Developer+%E2%9A%9B%EF%B8%8F;TypeScript+%7C+Tailwind+%7C+Node.js;Always+learning%2C+always+shipping+%F0%9F%93%A6" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Building+production-level+apps+%F0%9F%9A%80;React+%26+React+Native+Developer;TypeScript+%7C+Tailwind+%7C+Node.js;Always+learning%2C+always+shipping+%F0%9F%93%A6" alt="Typing SVG" />
 
 <br/>
 
-<!-- Badges Row -->
+<!-- Social Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akash-gautam-10616225a/)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-Profile-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/27605452/akash-gautam)
 [![Gmail](https://img.shields.io/badge/Gmail-Mail%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kew.akashgautam182@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=Akash-arya-02&style=for-the-badge&color=00F7FF&label=PROFILE+VIEWS)](https://github.com/Akash-arya-02)
+[![Profile Views](https://komarev.com/ghpvc/?username=Akash-arya-02&style=for-the-badge&color=00adb5&label=PROFILE+VIEWS)](https://github.com/Akash-arya-02)
 
 </div>
 
@@ -22,12 +22,12 @@
 
 ```typescript
 const akash = {
-  role:       "Frontend Engineer",
-  focus:      ["React", "React Native", "TypeScript"],
-  building:   "Production-level Admin Panels & Mobile Apps",
-  learning:   ["Full-Stack Dev", "Node.js", "Scalable Systems"],
-  motto:      "I learn fast by building real products 🚀",
-  openTo:     "Collaborating on real-world projects 🤝",
+  role:     "Frontend Engineer",
+  focus:    ["React", "React Native", "TypeScript"],
+  building: "Production-level Admin Panels & Mobile Apps",
+  learning: ["Full-Stack Dev", "Node.js", "Scalable Systems"],
+  motto:    "I learn fast by building real products 🚀",
+  openTo:   "Collaborating on real-world projects 🤝",
 };
 ```
 
@@ -70,20 +70,16 @@ const akash = {
 
 <div align="center">
 
-<!-- Stats + Languages side by side -->
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Akash-arya-02&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=FFFFFF&cache_seconds=1800" />
-&nbsp;&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-arya-02&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=FFFFFF&cache_seconds=1800" />
+<a href="https://github.com/Akash-arya-02">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Akash-arya-02&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=FFFFFF&include_all_commits=true&count_private=true" />
+</a>
+<a href="https://github.com/Akash-arya-02">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-arya-02&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=FFFFFF&langs_count=8" />
+</a>
 
 <br/><br/>
 
-<!-- Streak Stats — full width, centered -->
-<img width="70%" src="https://streak-stats.demolab.com?user=Akash-arya-02&theme=tokyonight-duo&hide_border=true&background=0D1117&stroke=00F7FF&ring=00F7FF&fire=FF6B6B&currStreakLabel=00F7FF&sideLabels=FFFFFF&dates=FFFFFF" />
-
-<br/><br/>
-
-<!-- GitHub Trophies -->
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Akash-arya-02&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
+<img src="https://streak-stats.demolab.com?user=Akash-arya-02&theme=tokyonight-duo&hide_border=true&background=0D1117&stroke=00F7FF&ring=00F7FF&fire=FF6B6B&currStreakLabel=00F7FF&sideLabels=FFFFFF&dates=FFFFFF" />
 
 </div>
 
@@ -92,9 +88,7 @@ const akash = {
 ## 📈 Contribution Graph
 
 <div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Akash-arya-02&bg_color=0D1117&color=00F7FF&line=00F7FF&point=FFFFFF&area=true&area_color=00F7FF&hide_border=true" />
-
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Akash-arya-02&bg_color=0D1117&color=00F7FF&line=00F7FF&point=FFFFFF&area=true&area_color=00F7FF&hide_border=true&custom_title=Akash%27s%20Contribution%20Graph" />
 </div>
 
 ---
@@ -109,8 +103,7 @@ const akash = {
 
 <div align="center">
 
-<!-- Footer Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00F7FF,100:0D1117&height=100&section=footer&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer&animation=fadeIn" />
 
 *"Code is not just syntax — it's craft."* ✨
 
