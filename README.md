@@ -36,14 +36,16 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=Akash-arya-02&show_icons=true&theme=tokyonight" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-arya-02&layout=compact&theme=tokyonight" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Akash-arya-02&show_icons=true&theme=tokyonight&cache_seconds=1800" />
 </p>
 
 <p align="center">
-  <img height="150" src="https://streak-stats.demolab.com?user=Akash-arya-02&theme=tokyonight" />
+  <img height="160" src="https://streak-stats.demolab.com?user=Akash-arya-02&theme=tokyonight" />
 </p>
 
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-arya-02&layout=compact&theme=tokyonight&cache_seconds=1800" />
+</p>
 ---
 
 ## 🐍 Contribution Snake
