@@ -1,5 +1,8 @@
 <h1 align="center">Hi 👋, I'm Akash Gautam</h1>
-<h3 align="center">Frontend Engineer | React & React Native Developer 🚀</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Frontend+Engineer;React+%26+React+Native+Developer;Building+Real-World+Apps+🚀;Always+Learning+New+Tech" />
+</p>
 
 ---
 
@@ -33,10 +36,26 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=akash-arya-02&show_icons=true&theme=radical" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akash-arya-02&layout=compact&theme=radical" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=Akash-arya-02&show_icons=true&theme=tokyonight" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-arya-02&layout=compact&theme=tokyonight" />
 </p>
 
 <p align="center">
-  <img height="150" src="https://streak-stats.demolab.com?user=akash-arya-02&theme=radical" />
+  <img height="150" src="https://streak-stats.demolab.com?user=Akash-arya-02&theme=tokyonight" />
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Akash-arya-02/Akash-arya-02/output/github-contribution-grid-snake.svg" />
+</p>
+
+---
+
+## 👀 Profile Views
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Akash-arya-02&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
