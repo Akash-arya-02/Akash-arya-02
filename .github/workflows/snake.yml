@@ -1,6 +1,16 @@
-name: Generate Snake
+name: 🐍 Generate Contribution Snake
 
 on:
+  # Auto-run every day at midnight UTC
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Run on every push to main (so snake updates when you commit)
+  push:
+    branches:
+      - main
+
+  # Keep manual trigger too
   workflow_dispatch:
 
 permissions:
@@ -9,21 +19,45 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    name: Generate Snake Animation
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate snake
+      # ── Variant 1: Custom Cyan Theme (matches your README) ──────────────────
+      # Snake is bright cyan (#00F7FF), dots go from dark → teal → cyan
+      # color_dots order: [0 contribs, low, medium, high, max]
+      - name: Generate cyan snake (light-compatible)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Akash-arya-02
+          outputs: >-
+            dist/github-contribution-grid-snake.svg?color_snake=%2300F7FF&color_dots=%230D1117,%23003B4A,%23006B7A,%2300B4CC,%2300F7FF
+
+      # ── Variant 2: Dark palette (GitHub dark mode) ───────────────────────────
+      # Uses official github-dark preset with cyan snake
+      - name: Generate dark mode snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Akash-arya-02
+          outputs: >-
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300F7FF
+
+      # ── Variant 3: Animated GIF (glows, cyan on dark) ────────────────────────
+      - name: Generate animated GIF snake
         uses: Platane/snk@v3
         with:
           github_user_name: Akash-arya-02
-          outputs: |
-            dist/github-contribution-grid-snake.svg
+          outputs: >-
+            dist/github-contribution-grid-snake.gif?color_snake=%2300F7FF&color_dots=%230D1117,%23003B4A,%23006B7A,%2300B4CC,%2300F7FF&color_background=%230D1117
 
-      - name: Deploy to output branch
+      # ── Deploy all generated files to the output branch ─────────────────────
+      - name: Deploy snake to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
           publish_dir: dist
+          force_orphan: true   # keeps output branch clean (no old file buildup)
+          commit_message: "🐍 Auto-update contribution snake [skip ci]"
